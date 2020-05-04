@@ -1,0 +1,88 @@
+[
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "fr.unice.polytech.si3.qgl.zecommit.visualisationtools.MyBenchmark.engineTestTimeWeek10",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-11.0.4\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\lib\\idea_rt.jar=52230:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dmjh.stack.period=1"
+        ],
+        "jdkVersion" : "11.0.4",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "11.0.4+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1279.5108986652237,
+            "scoreError" : 977.6275842761631,
+            "scoreConfidence" : [
+                301.8833143890606,
+                2257.138482941387
+            ],
+            "scorePercentiles" : {
+                "0.0" : 943.9112818181818,
+                "50.0" : 1285.87645,
+                "90.0" : 1592.5955142857142,
+                "95.0" : 1592.5955142857142,
+                "99.0" : 1592.5955142857142,
+                "99.9" : 1592.5955142857142,
+                "99.99" : 1592.5955142857142,
+                "99.999" : 1592.5955142857142,
+                "99.9999" : 1592.5955142857142,
+                "100.0" : 1592.5955142857142
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    943.9112818181818,
+                    1134.2657222222222,
+                    1285.87645,
+                    1440.905525,
+                    1592.5955142857142
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "·stack" : {
+                "score" : "NaN",
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : "NaN",
+                    "50.0" : "NaN",
+                    "90.0" : "NaN",
+                    "95.0" : "NaN",
+                    "99.0" : "NaN",
+                    "99.9" : "NaN",
+                    "99.99" : "NaN",
+                    "99.999" : "NaN",
+                    "99.9999" : "NaN",
+                    "100.0" : "NaN"
+                },
+                "scoreUnit" : "---",
+                "rawData" : [
+                    [
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN"
+                    ]
+                ]
+            }
+        }
+    }
+]
+
+
